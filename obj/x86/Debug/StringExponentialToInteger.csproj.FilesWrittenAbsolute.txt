@@ -1,0 +1,5 @@
+/home/mhfrough/Projects/StringExponentialToInteger/StringExponentialToInteger/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/mhfrough/Projects/StringExponentialToInteger/StringExponentialToInteger/bin/Debug/StringExponentialToInteger.exe.mdb
+/home/mhfrough/Projects/StringExponentialToInteger/StringExponentialToInteger/bin/Debug/StringExponentialToInteger.exe
+/home/mhfrough/Projects/StringExponentialToInteger/StringExponentialToInteger/obj/x86/Debug/StringExponentialToInteger.exe
+/home/mhfrough/Projects/StringExponentialToInteger/StringExponentialToInteger/obj/x86/Debug/StringExponentialToInteger.exe.mdb
