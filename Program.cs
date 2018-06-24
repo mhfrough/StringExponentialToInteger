@@ -45,7 +45,6 @@ namespace StringExponentialToInteger
 		}
 
 		public static void MinusExponential(string input){
-
 			string[] data1, data2, data3;
 
 			data1 = input.Split ('.');
@@ -79,8 +78,6 @@ namespace StringExponentialToInteger
 		}
 
 		public static string ZeroConvert(long value){
-			
-
 			string data = "";
 			for (long i = 0; i < value; i++) {
 				data = data + 0;
