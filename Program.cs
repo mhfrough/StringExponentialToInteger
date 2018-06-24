@@ -26,14 +26,22 @@ namespace StringExponentialToInteger
 			data2 = data1 [1].Split ('e');
 
 			long value1 = 0, value2 = 0;
-			string temp;
+			string temp1, temp2;
 
 			value1 = LongConvert (data2 [1]);
-			temp = data1 [0] + data2 [0];
+			temp1 = data1 [0] + data2 [0];
 			value2 = value1 - data2 [0].Length;
-			temp = temp + ZeroConvert (value2);
 
-			Console.WriteLine (LongConvert (temp));
+			if (value2 <= 0) {
+				value2 = value2 * (-1);
+				temp2 = "1" + ZeroConvert (value2);
+				float point = (float)LongConvert(temp1) / (float)LongConvert(temp2);
+				Console.WriteLine (point);
+			} else {
+				temp1 = temp1 + ZeroConvert (value2);
+				Console.WriteLine (LongConvert (temp1));
+			}
+				
 		}
 
 		public static void MinusExponential(string input){
@@ -71,6 +79,8 @@ namespace StringExponentialToInteger
 		}
 
 		public static string ZeroConvert(long value){
+			
+
 			string data = "";
 			for (long i = 0; i < value; i++) {
 				data = data + 0;
